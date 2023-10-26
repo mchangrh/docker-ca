@@ -1,0 +1,9 @@
+NAME
+    client.sh - create SSH client certificate 
+SYNOPSIS
+    client.sh PRINCIPAL FILENAME
+OPTIONS
+    PRINCIPAL   user(s) or host(s) - see `ssh-keygen.1` CERTIFICATES section
+
+    FILENAME    filename without extension, also the identifier to be logged
+                if file does not exist, a key will be generated

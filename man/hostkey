@@ -1,0 +1,9 @@
+NAME
+    hostkey.sh - create SSH hostkey certificates
+SYNOPSIS
+    hostkey.sh HOSTNAME [FILENAME]
+OPTIONS
+    HOSTNAME    FQDN of the server
+
+    FILENAME    filename of the public key of the server
+                if filename is not provided, hostname will be used as the filename
